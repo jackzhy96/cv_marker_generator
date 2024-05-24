@@ -7,7 +7,7 @@ The folder `aruco_marker` has all scripts to generate the marker board images / 
 The file names are self-explained.
 
 Let's take [gen_marker_pdf_letter.py](aruco_marker/gen_markers_pdf_letter.py) as an example. 
-This script is to generate a printable pdf for letter size paper.
+This script is to generate a printable PDF file for letter size paper.
 
 ### How to Run
 
