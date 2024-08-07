@@ -2,8 +2,6 @@ import cv2
 import numpy as np
 
 
-
-
 def gen_aruco_marker(aruco_dict:cv2.aruco_Dictionary, marker_id: int, marker_size: int, white_background:bool=False)->np.ndarray:
     '''
     draw the aruco marker with given information
@@ -19,6 +17,7 @@ def gen_aruco_marker(aruco_dict:cv2.aruco_Dictionary, marker_id: int, marker_siz
     if white_background:
         marker = ((marker - 255)*(-1)).astype(np.uint8)
     return marker
+
 
 if __name__ == "__main__":
     test = 1
