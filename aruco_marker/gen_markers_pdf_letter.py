@@ -74,15 +74,16 @@ def gen_marker_board_letter(aruco_dict:cv2.aruco_Dictionary, num_markers:int, po
 
 if __name__ == "__main__":
     # Marker size in centimeters
-    marker_size_cm = 3  # e.g., each marker is 5 cm x 5 cm
+    marker_size_cm = 1.5  # e.g., each marker is 5 cm x 5 cm
 
     # Resolution (DPI)
     dpi = 100  # pixels per centimeter
 
     # Define the dictionary to use for generating the markers
-    aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_250)
+    # aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_6X6_250)
+    aruco_dict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
 
-    num_markers = 2
+    num_markers = 1
 
     # Relative positions in centimeters
     positions_cm = [

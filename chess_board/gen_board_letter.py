@@ -76,8 +76,8 @@ if __name__ == "__main__":
 
     # List of chessboard configurations (rows, cols, square size in cm)
     chessboard_params = [
-        (12, 10, 0.5),  # First chessboard
-        (12, 10, 0.6),  # Second chessboard
+        (11, 10, 0.5),  # First chessboard
+        (11, 10, 0.6),  # Second chessboard
         # (12, 10, 1.0),  # Third chessboard
         # Add more configurations as needed
     ]
